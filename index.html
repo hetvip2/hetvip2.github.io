@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Hetvi Patel is a UIUC computer science student building distributed systems, cloud infrastructure, and AI-powered developer tools."
+    />
+    <meta name="theme-color" content="#f2f0e9" />
+    <meta property="og:title" content="Hetvi Patel | Software Engineer" />
+    <meta
+      property="og:description"
+      content="Distributed systems, cloud infrastructure, and thoughtfully engineered software."
+    />
+    <meta property="og:image" content="https://avatars.githubusercontent.com/u/141440753?v=4" />
+    <title>Hetvi Patel | Software Engineer</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js" defer></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <a class="wordmark" href="#top" aria-label="Hetvi Patel, home">Hetvi Patel</a>
+      <nav aria-label="Main navigation">
+        <a href="#work">Work</a>
+        <a href="#research">Research</a>
+        <a href="#writing">Writing</a>
+        <a href="#experience">Experience</a>
+        <a href="#about">About</a>
+      </nav>
+      <a class="icon-link" href="https://www.linkedin.com/in/hetvii-patell" target="_blank" rel="noreferrer" aria-label="LinkedIn profile">
+        <i data-lucide="linkedin" aria-hidden="true"></i>
+      </a>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Computer Science @ UIUC</p>
+          <h1 id="hero-title">Hi, I’m Hetvi.</h1>
+          <p class="hero-intro">
+            I enjoy building distributed systems, cloud infrastructure, and AI tools with real users in mind.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#work">View my projects</a>
+            <a class="button button-text" href="https://github.com/hetvip2" target="_blank" rel="noreferrer">GitHub <i data-lucide="arrow-up-right" aria-hidden="true"></i></a>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal" aria-label="Profile portrait">
+          <div class="portrait-wrap">
+            <img src="https://avatars.githubusercontent.com/u/141440753?v=4" alt="Hetvi Patel" width="460" height="460" />
+          </div>
+        </div>
+      </section>
+
+      <section class="work section" id="work" aria-labelledby="work-title">
+        <div class="section-heading reveal">
+          <h2 id="work-title">Projects</h2>
+          <p>A few things I’ve worked on in class, at internships, and on my own.</p>
+        </div>
+
+        <div class="project-list">
+          <article class="project reveal">
+            <div class="project-number">01</div>
+            <div class="project-media project-preview preview-orchestrators" role="img" aria-label="Multiple workflow orchestrators connecting to Azure Container Apps Jobs" aria-hidden="false">
+              <div class="orchestrator-list"><span>Airflow</span><span>Temporal</span><span>Argo</span><span>+10</span></div>
+              <i data-lucide="arrow-down" aria-hidden="true"></i>
+              <strong>Azure Container Apps Jobs</strong>
+            </div>
+            <div class="project-body">
+              <p class="project-kicker">Azure · Orchestration</p>
+              <h3>ACA Jobs Orchestrator Templates</h3>
+              <p>A collection of 13 ready-to-use integrations for connecting workflow and data orchestrators to Azure Container Apps Jobs.</p>
+              <ul class="tech-list" aria-label="Technologies"><li>Azure</li><li>Python</li><li>TypeScript</li><li>C#</li></ul>
+            </div>
+            <a class="project-link" href="https://github.com/hetvip2/aca-jobs-orchestrator-templates" target="_blank" rel="noreferrer" aria-label="View ACA Jobs Orchestrator Templates on GitHub"><i data-lucide="arrow-up-right" aria-hidden="true"></i></a>
+          </article>
+
+          <article class="project reveal">
+            <div class="project-number">02</div>
+            <div class="project-media project-preview preview-express" role="img" aria-label="Express Espresso launch preview" aria-hidden="false">
+              <i data-lucide="coffee" aria-hidden="true"></i>
+              <div><span>Container image</span><strong>create → live URL</strong></div>
+              <span class="preview-status">~30 sec</span>
+            </div>
+            <div class="project-body">
+              <p class="project-kicker">Azure · Serverless</p>
+              <h3>Express Espresso</h3>
+              <p>A compact Azure Container Apps demo featuring a fast serverless on-ramp, scale-to-zero, and a live cold-start race.</p>
+              <ul class="tech-list" aria-label="Technologies"><li>Python</li><li>Azure Container Apps</li></ul>
+            </div>
+            <a class="project-link" href="https://github.com/hetvip2/aca-express-demo" target="_blank" rel="noreferrer" aria-label="View Express Espresso on GitHub">
+              <i data-lucide="arrow-up-right" aria-hidden="true"></i>
+            </a>
+          </article>
+
+          <article class="project reveal">
+            <div class="project-number">03</div>
+            <div class="project-media project-preview preview-airflow" role="img" aria-label="Airflow task graph running Azure Container Apps Jobs" aria-hidden="false">
+              <span class="dag-node">extract</span><i data-lucide="arrow-right" aria-hidden="true"></i><span class="dag-node dag-node-active">ACA Job</span><i data-lucide="arrow-right" aria-hidden="true"></i><span class="dag-node">load</span>
+            </div>
+            <div class="project-body">
+              <p class="project-kicker">Infrastructure · Data</p>
+              <h3>Airflow on ACA Jobs</h3>
+              <p>An operator for running existing Airflow DAGs against Container Apps Jobs with deferrable execution, retries, and parallel pipelines.</p>
+              <ul class="tech-list" aria-label="Technologies"><li>Python</li><li>Apache Airflow</li><li>Azure</li></ul>
+            </div>
+            <a class="project-link" href="https://github.com/hetvip2/airflow-on-aca-jobs" target="_blank" rel="noreferrer" aria-label="View Airflow on ACA Jobs on GitHub">
+              <i data-lucide="arrow-up-right" aria-hidden="true"></i>
+            </a>
+          </article>
+
+          <article class="project reveal">
+            <div class="project-number">04</div>
+            <div class="project-media project-preview preview-systems" role="img" aria-label="Terminal preview of systems programming projects" aria-hidden="false">
+              <div class="terminal-bar"><i></i><i></i><i></i></div>
+              <code><span>$</span> ./shell<br><span>hetvi@cs341</span> ~/projects<br><span>$</span> parmake -j 8</code>
+            </div>
+            <div class="project-body">
+              <p class="project-kicker">CS 341 · Systems Programming</p>
+              <h3>Systems Programming Projects</h3>
+              <p>Built a Unix-like shell, custom memory allocator, parallel dependency executor, and client-server file service with concurrency and low-level resource management.</p>
+              <ul class="tech-list" aria-label="Technologies"><li>C</li><li>POSIX</li><li>Threads</li><li>Networking</li></ul>
+            </div>
+          </article>
+
+          <article class="project reveal">
+            <div class="project-number">05</div>
+            <figure class="project-media">
+              <img src="assets/projects/terrain.jpg" alt="Yosemite National Park featured in Terrain" width="1920" height="1080" loading="lazy" />
+            </figure>
+            <div class="project-body">
+              <p class="project-kicker">Database Systems · Full Stack</p>
+              <h3>Terrain</h3>
+              <p>A national park trip planner that brings together park details, live weather, alerts, air quality, and saved trip plans in one application.</p>
+              <ul class="tech-list" aria-label="Technologies"><li>React</li><li>TypeScript</li><li>Express</li><li>MySQL</li><li>Leaflet</li></ul>
+            </div>
+          </article>
+
+          <article class="project project-featured reveal">
+            <div class="project-number">06</div>
+            <figure class="project-media">
+              <img src="assets/projects/fairbetter.jpg" alt="Fairbetter career-fair question generation interface" width="960" height="600" loading="lazy" />
+            </figure>
+            <div class="project-body">
+              <p class="project-kicker">Information Retrieval · Distributed AI</p>
+              <h3>Fairbetter</h3>
+              <p>A career-fair assistant that parses resumes and company websites to generate relevant recruiter questions, company context, role matches, and skill-alignment insights.</p>
+              <ul class="tech-list" aria-label="Technologies">
+                <li>React</li><li>Python</li><li>Flask</li><li>Gemini</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project reveal">
+            <div class="project-number">07</div>
+            <figure class="project-media project-media-contain project-media-maze">
+              <img src="assets/projects/data-structures.png" alt="Generated maze with its solved path highlighted in red" width="500" height="500" loading="lazy" />
+            </figure>
+            <div class="project-body">
+              <p class="project-kicker">CS 225 · Data Structures</p>
+              <h3>Data Structures &amp; Algorithms</h3>
+              <p>Implemented maze generation and solving, KD-tree image mosaics, BFS/DFS image traversals, and a sliding-puzzle solver using foundational graph and search algorithms.</p>
+              <ul class="tech-list" aria-label="Technologies"><li>C++</li><li>Graphs</li><li>KD-Trees</li><li>Search</li></ul>
+            </div>
+          </article>
+
+          <article class="project reveal">
+            <div class="project-number">08</div>
+            <figure class="project-media project-media-phone">
+              <img src="assets/projects/capella.jpg" alt="Capella music genre selection screen" width="960" height="600" loading="lazy" />
+            </figure>
+            <div class="project-body">
+              <p class="project-kicker">Mobile · Real-Time Infrastructure</p>
+              <h3>Capella</h3>
+              <p>A scalable mobile system with multithreaded backend infrastructure for real-time, low-latency audio processing and multimodal reasoning.</p>
+              <ul class="tech-list" aria-label="Technologies"><li>React Native</li><li>Python</li><li>Multimodal AI</li></ul>
+            </div>
+            <a class="project-link" href="https://github.com/hetvip2/capella" target="_blank" rel="noreferrer" aria-label="View Capella on GitHub">
+              <i data-lucide="arrow-up-right" aria-hidden="true"></i>
+            </a>
+          </article>
+        </div>
+        <a class="all-work-link reveal" href="https://github.com/hetvip2?tab=repositories" target="_blank" rel="noreferrer">
+          Browse all repositories <span>22 public repos</span> <i data-lucide="arrow-right" aria-hidden="true"></i>
+        </a>
+      </section>
+
+      <section class="research section" id="research" aria-labelledby="research-title">
+        <div class="section-heading reveal">
+          <h2 id="research-title">Research</h2>
+          <p>Motion planning and human-aware robotics research with the <a href="https://parasollab.web.illinois.edu/" target="_blank" rel="noreferrer">Parasol Lab at UIUC</a>.</p>
+        </div>
+        <div class="research-highlight reveal">
+          <i data-lucide="presentation" aria-hidden="true"></i>
+          <p>Attended <strong>ICRA 2025</strong> and presented research at multiple symposiums through UIUC CS STARS and CRA’s UR2PhD program.</p>
+        </div>
+        <div class="research-grid">
+          <article class="research-project reveal">
+            <figure class="research-poster">
+              <img src="assets/research/motion-planning-intention-prediction.webp" alt="Poster for A Literature Review on Motion Planning and Intention Prediction Methods" loading="lazy" decoding="async">
+              <figcaption>
+                <h3>A Literature Review on Motion Planning and Intention Prediction Methods</h3>
+                <p>A review of more than 70 papers comparing how autonomous systems combine intention prediction with motion planning.</p>
+              </figcaption>
+            </figure>
+          </article>
+          <article class="research-project reveal">
+            <figure class="research-poster">
+              <img src="assets/research/has-rrt-protein-ligand.webp" alt="Poster for Solving Protein-Ligand Accessibility Problems Using HAS-RRT" loading="lazy" decoding="async">
+              <figcaption>
+                <h3>Solving Protein-Ligand Accessibility Problems Using HAS-RRT</h3>
+                <p>Applying robotics motion-planning methods to find low-energy paths for ligands traveling to protein binding sites.</p>
+              </figcaption>
+            </figure>
+          </article>
+        </div>
+      </section>
+
+      <section class="writing section" id="writing" aria-labelledby="writing-title">
+        <div class="section-heading reveal">
+          <h2 id="writing-title">Writing</h2>
+          <p>Technical articles published on <a href="https://techcommunity.microsoft.com/category/azure/blog/appsonazureblog" target="_blank" rel="noreferrer">Microsoft’s Apps on Azure Blog</a>.</p>
+        </div>
+        <div class="writing-list reveal">
+          <article>
+            <time datetime="2026-07-29">Jul 29, 2026</time>
+            <div>
+              <h3><a href="https://techcommunity.microsoft.com/blog/appsonazureblog/bring-your-own-orchestrator-to-azure-container-apps-jobs/4541275" target="_blank" rel="noreferrer">Bring Your Own Orchestrator to Azure Container Apps Jobs</a></h3>
+              <p>A practical guide to connecting 13 workflow engines to one serverless execution layer.</p>
+            </div>
+            <i data-lucide="arrow-up-right" aria-hidden="true"></i>
+          </article>
+          <article>
+            <time datetime="2026-07-14">Jul 14, 2026</time>
+            <div>
+              <h3><a href="https://techcommunity.microsoft.com/blog/appsonazureblog/orchestrate-azure-container-apps-jobs-with-apache-airflow/4534607" target="_blank" rel="noreferrer">Orchestrate Azure Container Apps Jobs with Apache Airflow</a></h3>
+              <p>Two open-source patterns for Airflow-driven ACA Job execution, including fan-out, retries, and dependency ordering.</p>
+            </div>
+            <i data-lucide="arrow-up-right" aria-hidden="true"></i>
+          </article>
+          <article>
+            <time datetime="2026-06-30">Jun 30, 2026</time>
+            <div>
+              <h3><a href="https://techcommunity.microsoft.com/blog/appsonazureblog/azure-container-apps-express-for-shipping-container-apps-fast/4531371" target="_blank" rel="noreferrer">Azure Container Apps Express for Shipping Container Apps Fast</a></h3>
+              <p>A measured look at cold starts, environment provisioning, and the faster path from container image to live URL.</p>
+            </div>
+            <i data-lucide="arrow-up-right" aria-hidden="true"></i>
+          </article>
+        </div>
+      </section>
+
+      <section class="experience section" id="experience" aria-labelledby="experience-title">
+        <div class="section-heading reveal">
+          <h2 id="experience-title">Experience</h2>
+        </div>
+        <div class="timeline reveal">
+          <article>
+            <div class="timeline-date">Sep – Dec 2026</div>
+            <div>
+              <h3>Uber</h3>
+              <p class="role">Incoming Software Engineering Intern · ML Matching Platform · San Francisco</p>
+              <p>Joining the ML Matching Platform team to work on scalable backend systems and machine-learning infrastructure.</p>
+            </div>
+            <i class="timeline-icon" data-lucide="car-front" aria-hidden="true"></i>
+          </article>
+          <article>
+            <div class="timeline-date">May – Aug 2026</div>
+            <div>
+              <h3>Microsoft</h3>
+              <p class="role">Product Management Intern · Azure Container Apps · Redmond, WA</p>
+              <p>Defined product direction for high-scale container platforms, published technical guidance, and partnered with engineering teams deploying enterprise cloud infrastructure.</p>
+            </div>
+            <span class="company-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+          </article>
+          <article>
+            <div class="timeline-date">May 2024 – Apr 2026</div>
+            <div>
+              <h3>State Farm</h3>
+              <p class="role">Software Engineering Intern + Co-op · Bloomington</p>
+              <p>Built real-time backend infrastructure and enterprise web applications with Python, Java, React, and TypeScript, owning work from prototype through production.</p>
+            </div>
+            <i class="timeline-icon" data-lucide="code-xml" aria-hidden="true"></i>
+          </article>
+          <article>
+            <div class="timeline-date">Aug 2023 – Present</div>
+            <div>
+              <h3><a href="https://parasollab.web.illinois.edu/" target="_blank" rel="noreferrer">Parasol Lab</a></h3>
+              <p class="role">Undergraduate Research Assistant · UIUC</p>
+              <p>Researching distributed AI systems with Dr. Nancy Amato, including tool-calling infrastructure and real-time multimodal interaction for multi-agent environments.</p>
+            </div>
+            <i class="timeline-icon" data-lucide="flask-conical" aria-hidden="true"></i>
+          </article>
+        </div>
+      </section>
+
+      <section class="about section" id="about" aria-labelledby="about-title">
+        <div class="about-statement reveal">
+          <h2 id="about-title">About me</h2>
+        </div>
+        <div class="about-details reveal">
+          <p>
+            I’m pursuing a B.S. in Computer Science at the University of Illinois Urbana-Champaign,
+            with minors in Statistics and Technology &amp; Management.
+          </p>
+          <p class="leadership-note"><strong>Beyond class:</strong> Vice President of Open Source at Illinois and a staff member for HackIllinois and CS SAIL, supporting technical communities and events for 1,000+ students.</p>
+          <div class="skills" aria-label="Skills">
+            <span>Python</span><span>TypeScript</span><span>Java</span><span>Go</span>
+            <span>C++</span><span>PostgreSQL</span><span>Azure &amp; AWS</span><span>Kubernetes &amp; Docker</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section reveal" aria-labelledby="contact-title">
+        <h2 id="contact-title">Get in touch</h2>
+        <p>The best way to reach me is by email. You can also find my work on GitHub.</p>
+        <div class="contact-links">
+          <a href="mailto:hetvip2@illinois.edu">Email <i data-lucide="mail" aria-hidden="true"></i></a>
+          <a href="https://www.linkedin.com/in/hetvii-patell" target="_blank" rel="noreferrer">LinkedIn <i data-lucide="arrow-up-right" aria-hidden="true"></i></a>
+          <a href="https://github.com/hetvip2" target="_blank" rel="noreferrer">GitHub <i data-lucide="arrow-up-right" aria-hidden="true"></i></a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <a class="wordmark" href="#top" aria-label="Back to top">Hetvi Patel</a>
+      <p>Built by Hetvi · <span id="year"></span></p>
+      <a href="#top" class="back-top">Back to top <i data-lucide="arrow-up" aria-hidden="true"></i></a>
+    </footer>
+  </body>
+</html>
