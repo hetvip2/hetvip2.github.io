@@ -1,24 +1,20 @@
-# Hetvi Patel — Portfolio
+# Hetvi Patel — Personal Portfolio
 
-A lightweight personal portfolio built with HTML, CSS, and JavaScript. It has no build step or paid dependencies and can be hosted free with GitHub Pages.
+This repository contains my personal website: a snapshot of the projects, research, technical writing, and engineering experience I want to highlight.
 
-## Preview locally
+I built the site with plain HTML, CSS, and JavaScript so it stays fast, easy to maintain, and independent of a framework or build system.
 
-Open `index.html` directly in a browser. No install is required.
+## Site structure
 
-## Update the site
+- `index.html` contains the page content and project details.
+- `styles.css` defines the visual design and responsive layout.
+- `script.js` handles the small interactive touches.
+- `assets/` contains my headshot and project imagery.
 
-- Biography, experience, projects, links, and skills live in `index.html`.
-- Colors, typography, spacing, and responsive layout live in `styles.css`.
-- Scroll reveals and the automatic footer year live in `script.js`.
-- Add a resume PDF to the repository and link it from the header or hero when it is ready.
+## Running locally
 
-## Publish free with GitHub Pages
+Open `index.html` in a browser. There are no dependencies to install.
 
-1. Create a public GitHub repository named `hetvip2.github.io`.
-2. Push these files to its `main` branch.
-3. In the repository, open **Settings → Pages**.
-4. Under **Build and deployment**, select **Deploy from a branch**, then choose `main` and `/ (root)`.
-5. The site will be available at `https://hetvip2.github.io` after the first deployment finishes.
+## Deployment
 
-Future updates are just edits followed by a push to `main`; GitHub Pages redeploys automatically.
+The site is published through GitHub Pages at [hetvip2.github.io](https://hetvip2.github.io). Changes pushed to `main` are deployed automatically.
